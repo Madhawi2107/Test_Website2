@@ -1,0 +1,64 @@
+HTML{                                /* default styling*/
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+ /*descendant selector or combinator */
+header h1{
+    font-weight: 100;
+}
+
+/* element styling*/
+header{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 3rem;
+}
+
+nav{
+    position: relative;
+    top:2rem;
+    right:2rem;
+    width: 20rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+
+.showcase_img{
+    width:90vw;
+    margin:0 3rem;
+}
+
+article{
+    display:flex;
+    
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.container1{
+text-align: center;
+margin-right:4rem;
+}
+
+footer{
+background-color: black;
+color: white;
+height: 4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Psuedo classes*/
+a:hover{
+color: red;
+}
